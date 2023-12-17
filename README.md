@@ -8,6 +8,13 @@ easier to change variables and places and chmod 666 /tmp/AB.offset for the user 
 darker mode as default with normal mode done by typing "echo 1 > /tmp/AB.offset"
 
 they are in autobrightness.sh
+![image](https://github.com/Theluga/Mac-like-automatic-brightness/assets/96307393/af70da99-2821-41f5-b066-a53d4a282a02)
+I created 4 butttons with launcher panel on xfce in my top bar.
+Since I run autobrightness.sh as a systemd service, my custom command in this launchers are from left to right:
+Darker mode: bash -c 'echo 0 > /tmp/AB.offset'
+Start Autobrightness: touch /tmp/AB.start
+Stop Autobrightness: touch /tmp/AB.stop
+Default mode: bash -c 'echo 1 > /tmp/AB.offset'
 
 # Mac-like-automatic-brightness
 A simple script to provide a "Mac" like automatic brightness adjustemnt/ animation
