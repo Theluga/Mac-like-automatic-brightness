@@ -13,7 +13,7 @@ they are in autobrightness.sh
 
 I created 4 butttons with launcher panel on xfce in my top bar left corner.
 
-Since I run autobrightness.sh as a systemd service, my custom command in this launchers are from left to right:
+Since I run autobrightness.sh as a systemd service, my custom command in these launchers are from left to right:
 
 Darker mode: bash -c 'echo 0 > /tmp/AB.offset'
 
