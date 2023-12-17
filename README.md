@@ -9,9 +9,9 @@ darker mode as default with normal mode done by typing "echo 1 > /tmp/AB.offset"
 
 they are in autobrightness.sh
 
-![image](https://github.com/Theluga/Mac-like-automatic-brightness/assets/96307393/af70da99-2821-41f5-b066-a53d4a282a02)
+![image](https://github.com/Theluga/Mac-like-automatic-brightness/assets/96307393/8967cf66-3977-4fd3-9fc4-dfa626c3322c)
 
-I created 4 butttons with launcher panel on xfce in my top bar.
+I created 4 butttons with launcher panel on xfce in my top bar left corner.
 
 Since I run autobrightness.sh as a systemd service, my custom command in this launchers are from left to right:
 
